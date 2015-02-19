@@ -39,9 +39,11 @@
 }
 
 % Section Labels
-\renewcommand\thesection{Problem \arabic{section}}
+\renewcommand\thesection{Problem \psetnum-\arabic{section}}
 \renewcommand{\labelenumi}{\bfseries\alph{enumi})}
+\renewcommand{\labelenumii}{\arabic{enumii}.}
 \setlist[enumerate,1]{rightmargin=.5in}
+\setlist[enumerate,2]{rightmargin=.25in}
 
 % Theorem
 \newtheoremstyle{theorem}{}{}{}{}{\bfseries}{:}{.5em}{}

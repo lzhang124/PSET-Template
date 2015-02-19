@@ -1,0 +1,78 @@
+%
+% 6.006 PSET 1
+%
+\documentclass[12pt]{article}
+
+\input{style}
+
+% Other Packages
+
+\renewcommand{\classname}{CLASSNAME}
+\renewcommand{\collaborators}{COLLABORATORS}
+\renewcommand{\psetnum}{NUMBER}
+
+% START DOCUMENT %
+
+\begin{document}
+
+\setlength{\abovedisplayskip}{6pt}
+\setlength{\belowdisplayskip}{6pt}
+\setcounter{page}{1}
+\thispagestyle{firstpage}
+\vspace*{-30pt}
+
+\part*{PSET \psetnum}
+
+\section{}
+    \begin{enumerate}
+        \item
+            aligning equations:
+            \begin{align*}
+                f_1(n) &= 1 \\
+                f_2(n) &= 2 \\
+                f_3(n) &= 3 \\
+                f_4(n) &= 4 \\
+                f_5(n) &= 5
+            \end{align*}
+
+        \item
+            gathering equations
+            \begin{gather*}
+                f_1(n) = 1 \\
+                f_2(n) = 2 \\
+                f_3(n) = 3 \\
+                f_4(n) = 4 \\
+                f_5(n) = 5
+            \end{gather*}
+
+    \end{enumerate}
+
+\section{}
+    \begin{enumerate}
+        \item
+            include code:
+            % \pyfile[firstline=9, lastline=29]{count.py}
+
+        \item
+            casework:
+            \begin{case}
+                \item case 1 \\
+                    this is case 1
+
+                \item case 2 \\
+                    this is case 2
+
+            \end{case}
+
+        \item
+            theorems and proofs:
+            \begin{theorem}
+                this is a theorem
+            \end{theorem}
+            \begin{proof}
+                This is a proof
+            \end{proof}
+
+    \end{enumerate}
+
+\end{document}

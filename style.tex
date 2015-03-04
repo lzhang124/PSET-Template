@@ -46,6 +46,10 @@
 \setlist[enumerate,1]{rightmargin=.5in}
 \setlist[enumerate,2]{rightmargin=.25in}
 
+% Diagrams
+\def\diagram#1#2{\list{}{\leftmargin#1\rightmargin#2}\item[]}
+\let\enddiagram=\endlist
+
 % Theorem
 \newtheoremstyle{theorem}{}{}{}{}{\bfseries}{:}{.5em}{}
 \theoremstyle{theorem}

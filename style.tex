@@ -57,6 +57,10 @@
 \newlist{case}{enumerate}{1}
 \setlist[case]{label=\textit{Case \arabic*}:,leftmargin=.75in}
 
+% Induction
+\newenvironment{basecase}{\vspace*{-12pt}\list{}{\leftmargin.25in}\item{\textit{Base Case}:}}{\endlist}
+\newenvironment{induction}{\vspace*{-18pt}\list{}{\leftmargin.25in}\item{\textit{Inductive Step}:}}{\endlist}
+
 % Colors
 \definecolor{black}{gray}{0}
 \definecolor{gray}{gray}{0.5}
